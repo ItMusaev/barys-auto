@@ -924,6 +924,8 @@ a {
 .joinusmap .joinusmap__rb {
   position: relative;
   z-index: 5;
+  width: 100%;
+  overflow: hidden;
 }
 
 .joinusmap .joinusmap__rb img {
@@ -1430,7 +1432,7 @@ a {
   }
 
   .joinusmap .joinusmap__blockquote blockquote a {
-    font-size: 28px;
+    font-size: 24px;
   }
 }
 
