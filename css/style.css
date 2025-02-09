@@ -1327,6 +1327,10 @@ a {
     width: 300px;
   }
 
+  .joinusmap .joinusmap__rb {
+    overflow: hidden;
+  }
+
   .joinusmap .joinusmap__map {
     height: 240px;
   }
