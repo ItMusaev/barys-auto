@@ -1174,7 +1174,7 @@ a {
   }
 
   .joinusmap .joinusmap__rb img {
-    right: inherit;
+    right: 80px;
     left: 50%;
     margin-left: -15%;
     -webkit-transform: rotate(-90deg);
@@ -1320,7 +1320,7 @@ a {
 
   .joinusmap .joinusmap__rb img {
     left: 50%;
-    margin-left: -25%;
+    margin-left: -45%;
     top: 0;
     -webkit-transform: inherit;
             transform: inherit;
@@ -1519,5 +1519,11 @@ a {
   .joinusmap .joinusmap__lb p {
     font-size: 21px;
     line-height: 28px;
+  }
+}
+
+@media (max-width: 370px) {
+  .joinusmap .joinusmap__blockquote blockquote a {
+    font-size: 18px;
   }
 }
