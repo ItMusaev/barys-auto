@@ -890,7 +890,7 @@ a {
   align-items: center;
   justify-content: flex-end;
   font-weight: 900;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 56px;
   padding: 12px 30px;
   padding-right: 60px;
@@ -909,6 +909,10 @@ a {
   display: flex;
   align-items: center;
   margin-left: 15px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  display: none;
 }
 
 .joinusmap .joinusmap__maplink span {
@@ -925,12 +929,12 @@ a {
   position: relative;
   z-index: 5;
   width: 100%;
-  overflow: hidden;
 }
 
 .joinusmap .joinusmap__rb img {
   position: relative;
   top: -100px;
+  right: -200px;
 }
 
 .joinusmap .joinusmap__map {
@@ -1170,6 +1174,7 @@ a {
   }
 
   .joinusmap .joinusmap__rb img {
+    right: inherit;
     left: 50%;
     margin-left: -15%;
     -webkit-transform: rotate(-90deg);
